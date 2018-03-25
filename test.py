@@ -6,7 +6,7 @@ import pprint
 print('...calling twitter...')
 print('')
 url = augment('https://api.twitter.com/1.1/statuses/user_timeline.json',
-               {'screen_name': 'vishal_kr7', 'count': '2'} )
+               {'screen_name': 'vi*******r7', 'count': '2'} )
 print(url)
 
 # ignore certificate error
