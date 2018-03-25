@@ -20,7 +20,7 @@ def augment(url, parameters):
 def test_me():
     print('* calling twitter...')
     url = augment('https://api.twitter.com/1.1/statuses/user_timeline.json',
-                  {'screen_name': 'vishal_kr7', 'count': '2'})
+                  {'screen_name': 'vi*******7', 'count': '2'})
     print(url)
     connection = urllib.request.urlopen(url)
     data = conection.read()
